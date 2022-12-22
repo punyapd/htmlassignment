@@ -23,14 +23,14 @@
   <body>
     <header>
       <h2>HTML Learning</h2>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Support</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About Us</a>
-      <a href="#">Support</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
-    </nav>
     <main>
       <hr />
       <h1>Playing HTML Table</h1>
@@ -42,71 +42,73 @@
               <th colspan="3">Grocery Items Bills</th>
             </thead>
             <tbody>
-              <tr>
-                <td><b>Item Name</b></td>
-                <td><b>Quantity</b></td>
-                <td><b>Price</b></td>
-              </tr>
-              <tr>
-                <td>Potatoes</td>
-                <td>50</td>
-                <td>NRs.500.00</td>
-              </tr>
-              <tr>
-                <td>Nuts and Other Stuffs</td>
-                <td>100</td>
-                <td>NRs.1400.00</td>
-              </tr>
-              <tr>
-                <td>Green and Red Onions</td>
-                <td>30</td>
-                <td>NRs.2500.00</td>
-              </tr>
-              <tr>
-                <td colspan="2"><b>Total Price</b></td>
-                <td><b>NRs.3400.00</b></td>
-              </tr>
-            </tbody>
+            <tr>
+              <td><b>Item Name</b></td>
+              <td><b>Quantity</b></td>
+              <td><b>Price</b></td>
+            </tr>
+            <tr>
+              <td>Potatoes</td>
+              <td>50</td>
+              <td>NRs.500.00</td>
+            </tr>
+            <tr>
+              <td>Nuts and Other Stuffs</td>
+              <td>100</td>
+              <td>NRs.1400.00</td>
+            </tr>
+            <tr>
+              <td>Green and Red Onions</td>
+              <td>30</td>
+              <td>NRs.2500.00</td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>Total Price</b></td>
+              <td><b>NRs.3400.00</b></td>
+            </tr>
+        </tbody>
           </table>
         </table>
       </section>
-      <section style="margin-top: 100px">
+      <section style="margin-top: 100px;">
         <table style="width: 60%">
           <thead>
             <th colspan="3">Seminar</th>
           </thead>
           <tbody>
             <tr>
-              <th>Day</th>
-              <th colspan="2">Schedule</th>
+                <th>Day</th>
+                <th colspan="2">Schedule</th>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td>7:00 A.M</td>
+                <td>11:00 A.M</td>
+
+            </tr>
+            <tr>
+                <td>4:00 P.M</td>
+                <td>8:00 P.M</td>
             </tr>
 
             <tr>
-              <td rowspan="2">Monday</td>
-              <td>7:00 A.M</td>
-              <td>11:00 A.M</td>
-            </tr>
-            <tr>
-              <td>4:00 P.M</td>
-              <td>8:00 P.M</td>
-            </tr>
+                <td rowspan="2">Tuesday</td>
+                <td>6:00 A.M</td>
+                <td>10:00 A.M</td>
 
-            <tr>
-              <td rowspan="2">Tuesday</td>
-              <td>6:00 A.M</td>
-              <td>10:00 A.M</td>
             </tr>
             <tr>
-              <td>3:00 P.M</td>
-              <td>11:00 P.M</td>
+                <td>3:00 P.M</td>
+                <td>11:00 P.M</td>
             </tr>
           </tbody>
         </table>
       </section>
     </main>
-    <footer style="margin-top: 100px">
-      <hr />
-      <p>&#169;&nbsp;Copyright. End of my First Project.</p>
+    <footer style="margin-top: 100px;">
+        <hr>
+        <p> &#169;&nbsp;Copyright. End of my First Project.</p>
     </footer>
   </body>
 </html>
